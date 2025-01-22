@@ -20,20 +20,17 @@
 <!-- end custom head snippets -->
 
 <style>
-        body {
-            margin: 0;
-            overflow: hidden; /* スクロールバーを隠す */
-        }
         video {
-            position: fixed;
+            
             top: 0;
             left: 0;
             width: 100%; /* ウィンドウの幅に合わせる */
             height: 100%; /* ウィンドウの高さに合わせる */
             object-fit: cover; /* 動画のアスペクト比を保ちながら全体をカバー */
+ max-width: 800px; /* 動画の最大幅を元の動画サイズに合わせる */
+   
         }
     </style>
-
     
   </head>
   <body>
@@ -46,7 +43,7 @@
       
 
 <video autoplay loop muted playsinline>
-        <source src="hyperbolicTriangle2.mp4" type="video/mp4">
+        <source src="hyperbolicTriangle.mp4" type="video/mp4">
         お使いのブラウザは動画タグに対応していません。
     </video>
 
