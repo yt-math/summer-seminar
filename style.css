@@ -1,4 +1,9 @@
-       video {
+body {
+  background-color: white !important; /* 背景色を白に固定 */
+  color: black; /* テキストカラーを黒に設定 */
+}
+
+video {
             
             top: 0;
             left: 50;
