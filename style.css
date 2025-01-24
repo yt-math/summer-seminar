@@ -1,0 +1,87 @@
+       video {
+            
+            top: 0;
+            left: 50;
+            width: 100%; /* ウィンドウの幅に合わせる */
+            height: 100%; /* ウィンドウの高さに合わせる */
+            object-fit: cover; /* 動画のアスペクト比を保ちながら全体をカバー */
+ max-width: 800px; /* 動画の最大幅を元の動画サイズに合わせる */
+  justify-content: center; /* 水平方向の中央揃え */
+     display: flex;
+      justify-content: center; /* 中央揃え */
+      align-items: center; /* 縦方向の中央揃え（必要なら） */
+        }
+
+  .video-container {
+      display: flex;
+      justify-content: center; /* 中央揃え */
+      align-items: center; /* 縦方向の中央揃え（必要なら） */
+    }
+
+img {
+  width: 100%;        /* 画面幅に合わせて調整 */
+  max-width: 800px;   /* 最大幅を指定 */
+  height: auto;       /* アスペクト比を維持 */
+}
+
+    .image-container {
+      position: relative;
+      display: inline-block;
+    }
+
+    /* 画像自体のスタイル */
+    .image-container img {
+      width: 100%;
+      max-width: 800px; /* 必要に応じて調整 */
+      height: auto;
+    }
+
+    /* 隠しボタンのスタイル */
+    .hidden-button {
+      position: absolute;
+      top: 81.5%; /* 画像の特定の位置 (縦方向) */
+      left: 58%; /* 画像の特定の位置 (横方向) */
+      width: 10px; /* ボタンの横幅 */
+      height: 10px; /* ボタンの高さ */
+   
+      border: none;
+      cursor: pointer;
+      display: none; /* 完全に隠すなら「display: none;」にする */
+    }
+
+   /* ホバー時にボタンを表示する例 */
+    .image-container:hover .hidden-button {
+      display: block; /* ホバー時にボタンを表示 */
+    }
+
+  header {
+  flex-direction: column; /* 縦に並べる */
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+
+ h1 {
+font-size: 50px;
+      margin-bottom: 1px; /* 動画との間にスペース */
+    }
+
+ main {
+      display: flex;
+      flex-direction: column; /* 縦に並べる */
+      align-items: center;    /* 中央揃え */
+      text-align: center;     /* 中央揃え */
+      padding: 20px;
+    }
+
+    main h2 {
+      font-size: 1.8em;
+      margin-bottom: 20px; /* コンテンツとの間にスペース */
+    }
+
+    main p {
+      font-size: 1.2em;
+      max-width: 800px; /* 文章の幅を制限 */
+    }
