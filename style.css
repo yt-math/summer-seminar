@@ -3,7 +3,7 @@ body {
   color: black; /* テキストカラーを黒に設定 */
 }
 
-video {
+       video {
             
             top: 0;
             left: 50;
@@ -24,20 +24,32 @@ video {
     }
 
 img {
+ display: block;
   width: 100%;        /* 画面幅に合わせて調整 */
-  max-width: 800px;   /* 最大幅を指定 */
+/*  max-width: 800px;    最大幅を指定 */
+max-width: none; 
   height: auto;       /* アスペクト比を維持 */
 }
 
+.full-width-img {
+  width: 100vw;  /* ビューポート（ウィンドウ）の幅に合わせる */
+  height: auto;  /* 縦横比を維持 */
+  display: block; /* 不要な余白を消す */
+}
+
     .image-container {
-      position: relative;
+/*      position: relative;
       display: inline-block;
+*/
+width:100%;
+margin: 0; 
+padding: 0; 
     }
 
     /* 画像自体のスタイル */
     .image-container img {
       width: 100%;
-      max-width: 800px; /* 必要に応じて調整 */
+      max-width: none; /* 必要に応じて調整 */
       height: auto;
     }
 
@@ -52,11 +64,13 @@ img {
       border: none;
       cursor: pointer;
       display: none; /* 完全に隠すなら「display: none;」にする */
+	opacity: 0;
     }
 
    /* ホバー時にボタンを表示する例 */
     .image-container:hover .hidden-button {
       display: block; /* ホバー時にボタンを表示 */
+ 
     }
 
   header {
