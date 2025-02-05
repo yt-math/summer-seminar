@@ -1,6 +1,6 @@
-body {
-  background-color: white !important; /* 背景色を白に固定 */
-  color: black; /* テキストカラーを黒に設定 */
+html, body {
+  background-color: #ffffff !important; /* 背景を白に固定 */
+  color: #000000 !important; /* 文字色も黒に固定 */
 }
 
        video {
@@ -37,10 +37,8 @@ max-width: none;
   display: block; /* 不要な余白を消す */
 }
 
-    .image-container {
-/*      position: relative;
-      display: inline-block;
-*/
+ .image-container {
+
 width:100%;
 margin: 0; 
 padding: 0; 
