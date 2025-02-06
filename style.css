@@ -11,7 +11,8 @@ html, body {
   }
 
   img {
-    filter: invert(1); /* 画像も反転して元に戻す */
+	   filter: none !important;
+  background-color: transparent !important; /* 画像の背景を透明のままに */
   }
 }
 
