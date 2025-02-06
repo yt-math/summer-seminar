@@ -3,18 +3,6 @@ html, body {
   color: #000000 !important; /* 文字色も黒に固定 */
 }
 
-@media (prefers-color-scheme: dark) {
-  html, body {
-    filter: invert(1) !important;  /* 反転して元に戻す */
-    background-color: #ffffff !important;
-    color: #000000 !important;
-  }
-
-  img {
-	   filter: none !important;
-  background-color: transparent !important; /* 画像の背景を透明のままに */
-  }
-}
 
        video {
             
