@@ -9,12 +9,12 @@ html, body {
     background-color: #ffffff !important;
     color: #000000 !important;
   }
-
+}
   img {
 	   filter: none !important;
   background-color: transparent !important; /* 画像の背景を透明のままに */
   }
-}
+
 
        video {
             
