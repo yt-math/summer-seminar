@@ -16,6 +16,9 @@ html, body {
   .form-button:hover {
     background-color: #45a049;
   }
+p {
+  font-weight: 500;  /* 数字は 100（細）〜900（太）で指定 */
+}
        video {
             
             top: 0;
