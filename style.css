@@ -28,12 +28,12 @@ html, body {
 }
 
 .form-button.green:hover {
-  background-color: #45a049;
+  background-color: #4CAF50;
 }
 
 /* 講演申し込み（紫） */
 .form-button.purple {
-  background-color: #b39ddb;
+  background-color:  #9575cd;
 }
 
 .form-button.purple:hover {
