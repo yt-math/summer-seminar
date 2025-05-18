@@ -6,7 +6,7 @@ html, body {
 .button-container {
   display: flex;
   justify-content: center;
-  gap: 3em; /* 必要に応じて間隔を調整 */
+  gap: 10em; /* 必要に応じて間隔を調整 */
   flex-wrap: wrap;
   margin: 1em 0;
 }
@@ -22,18 +22,23 @@ html, body {
   white-space: nowrap;
 }
 
-.form-button:hover {
+/* 参加申し込み（緑） */
+.form-button.green {
+  background-color: #4CAF50;
+}
+
+.form-button.green:hover {
   background-color: #45a049;
 }
 
+/* 講演申し込み（紫） */
 .form-button.purple {
-  background-color: #8e44ad; /* 紫（講演） */
+  background-color: #8e44ad;
 }
 
 .form-button.purple:hover {
   background-color: #732d91;
 }
-
 
 p {
   font-weight: 500;  /* 数字は 100（細）〜900（太）で指定 */
