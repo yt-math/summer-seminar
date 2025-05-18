@@ -6,7 +6,7 @@ html, body {
 .button-container {
   display: flex;
   justify-content: center;
-  gap: 15em; /* 必要に応じて間隔を調整 */
+  gap: 12em; /* 必要に応じて間隔を調整 */
   flex-wrap: wrap;
   margin: 1em 0;
 }
