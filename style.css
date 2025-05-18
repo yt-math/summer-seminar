@@ -6,7 +6,7 @@ html, body {
 .button-container {
   display: flex;
   justify-content: center;
-  gap: 10em; /* 必要に応じて間隔を調整 */
+  gap: 20em; /* 必要に応じて間隔を調整 */
   flex-wrap: wrap;
   margin: 1em 0;
 }
@@ -33,11 +33,11 @@ html, body {
 
 /* 講演申し込み（紫） */
 .form-button.purple {
-  background-color: #8e44ad;
+  background-color: #b39ddb;
 }
 
 .form-button.purple:hover {
-  background-color: #732d91;
+  background-color: #9575cd;
 }
 
 p {
