@@ -6,14 +6,14 @@ html, body {
 .button-container {
   display: flex;
   justify-content: center;
-  gap: 1em;
+  gap: 10em;
   flex-wrap: wrap;
   margin: 1em 0;
 }
 
 .form-button {
   padding: 10px 20px;
-  font-size: 10rem;
+  font-size: 1rem;
   background-color: #4CAF50; /* 緑（参加） */
   color: white;
   border: none;
