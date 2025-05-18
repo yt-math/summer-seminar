@@ -6,7 +6,7 @@ html, body {
 .button-container {
   display: flex;
   justify-content: center;
-  gap: 10em;
+  gap: 3em; /* 必要に応じて間隔を調整 */
   flex-wrap: wrap;
   margin: 1em 0;
 }
@@ -21,6 +21,20 @@ html, body {
   cursor: pointer;
   white-space: nowrap;
 }
+
+.form-button:hover {
+  background-color: #45a049;
+}
+
+.form-button.purple {
+  background-color: #8e44ad; /* 紫（講演） */
+}
+
+.form-button.purple:hover {
+  background-color: #732d91;
+}
+
+
 p {
   font-weight: 500;  /* 数字は 100（細）〜900（太）で指定 */
 }
