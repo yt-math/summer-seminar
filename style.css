@@ -3,6 +3,14 @@ html, body {
   color: #000000 !important; /* 文字色も黒に固定 */
 }
 
+.button-container {
+  display: flex;
+  justify-content: center; /* 中央に並べる */
+  gap: 1em;                /* ボタンの間隔 */
+  flex-wrap: wrap;         /* 画面が狭いときに折り返す */
+  margin: 1em 0;
+}
+
 .form-button {
   padding: 10px 20px;
   font-size: 1rem;
@@ -11,16 +19,13 @@ html, body {
   border: none;
   border-radius: 6px;
   cursor: pointer;
-  margin: 5px; /* ボタン同士の余白 */
+  white-space: nowrap;     /* テキストの折り返し防止 */
 }
 
 .form-button:hover {
   background-color: #45a049;
 }
 
-  .form-button:hover {
-    background-color: #45a049;
-  }
 p {
   font-weight: 500;  /* 数字は 100（細）〜900（太）で指定 */
 }
