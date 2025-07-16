@@ -64,6 +64,18 @@
   }
 </script>
       <!--ここまで-->
+
+
+      <div id="specialImage" style="display: none;">
+  <img src="hyperbolicZ_6.png" alt="特別画像" width="400">
+</div>
+
+<script>
+  // 0〜99の乱数を生成して、0だったら表示（確率1%）
+  if (Math.floor(Math.random() * 100) === 0) {
+    document.getElementById("specialImage").style.display = "block";
+  }
+</script>
     </header>
 
     <main id="content" class="main-content" role="main">
